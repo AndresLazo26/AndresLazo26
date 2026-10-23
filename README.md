@@ -15,6 +15,12 @@ ones here are pieces I extracted to share:
 - **desktop-ui-kit**: Python + WebView2 kit behind three of my production desktop apps.
 - **zotero-mcp**: a dependency-free MCP server to manage Zotero references from an AI assistant.
 
+Security, because agents that touch production need guardrails:
+
+- **precommit-secrets-guard**: pre-commit hook and GitHub Actions workflow that stop secrets with gitleaks, used across a dozen repos.
+- **security-sweep**: weekly scan of repos, live sites and release zips that never prints a secret.
+- **post-incident-rotation**: how I rotated 25+ credentials in about 48 hours after a hosting provider's env-var exposure.
+
 Stack I work with: Python, Node, Claude (tool use, MCP), Postgres, Railway, GitHub Actions, Meta Cloud API, Gmail/Google APIs, Playwright.
 
 [LinkedIn](https://www.linkedin.com/in/andres-lazo) · andres.lazo@enhanzu.com
