@@ -1,26 +1,11 @@
 ### Hi, I'm Andrés
 
-AI automation and implementation specialist from Costa Rica, working remotely in English and Spanish.
+Bilingual virtual assistant (English C2 / Spanish native) in Costa Rica, working remotely inside US business hours.
 
-I build AI agents that do real work for small businesses: replying to new leads in minutes, screening
-CVs from a recruiter's inbox, filling job application forms without inventing facts, and rebuilding
-research tables that check themselves. I build with AI development tools and spend most of my time on
-deciding what to automate and verifying what ships.
+I keep a small team's inbox, calendar and client follow-ups in order, keep records in Google Sheets, Notion or a CRM,
+and set up small automations with Zapier and AI tools when a task repeats every day. Before this I was executive and
+operations assistant to a regional operations manager at Samsung Electronics Latin America.
 
-**Portfolio with case studies and numbers:** https://andreslazo26.github.io
+**Portfolio, services and rate ($10/h, full-time):** https://andreslazo26.github.io
 
-Most of my work lives in private client and product repos (1,000+ commits since May 2026). The public
-ones here are pieces I extracted to share:
-
-- **desktop-ui-kit**: Python + WebView2 kit behind three of my production desktop apps.
-- **zotero-mcp**: a dependency-free MCP server to manage Zotero references from an AI assistant.
-
-Security, because agents that touch production need guardrails:
-
-- **precommit-secrets-guard**: pre-commit hook and GitHub Actions workflow that stop secrets with gitleaks, used across a dozen repos.
-- **security-sweep**: weekly scan of repos, live sites and release zips that never prints a secret.
-- **post-incident-rotation**: how I rotated 25+ credentials in about 48 hours after a hosting provider's env-var exposure.
-
-Stack I work with: Python, Node, Claude (tool use, MCP), Postgres, Railway, GitHub Actions, Meta Cloud API, Gmail/Google APIs, Playwright.
-
-[LinkedIn](https://www.linkedin.com/in/andres-lazo) · andres.lazo@enhanzu.com
+[LinkedIn](https://www.linkedin.com/in/andres-lazo) · lazovaldiviaa@gmail.com
